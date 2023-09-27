@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SPEXRON | Email Sender</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="gradient-section">
+            <div class="gradient"></div>
+            <div class="gradient-content">
+                <h1 class="heading"><span>SPEXRON MEDIA</span></h1>
+                <p class="paragraph">E-Posta Gönderici | E-Mail Sender </p>
+            </div>
+            </div>
+
+        <div class="form-section">
+            <h2>Merhaba</h2>
+            <p>E-posta göndericiye hoş geldiniz</p>
+            <form>
+                <div class="form-group">
+                    <label for="to">Kime:</label>
+                    <input type="text" name="to" id="to" required autocomplete="off" placeholder="ornek@ornek.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Konu:</label>
+                    <input type="text" name="subject" id="subject" required autocomplete="off" placeholder="Deneme">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Mesaj:</label>
+                    <textarea name="message" id="message" required spellcheck="false" autocomplete="off" placeholder="Göndermek istediğiniz mesajı yazın"></textarea>
+                </div>
+
+                <div class="form-group result-container">
+                    <p class="result">E-posta başarıyla gönderildi</p>
+                    <button type="button" class="send-btn">E-posta gönder</button>
+                </div>
+            </form>
+        </div>
+    
+        <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
+
+<!-- CODED AND DESIGNED BY SPEXRON -->
